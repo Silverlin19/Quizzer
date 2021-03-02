@@ -1,0 +1,83 @@
+body {
+  background-image: url(../Images/background.jpg);
+  background-size: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  height: fit-content;
+  width: 50%;
+  padding: 2%;
+  margin: 15% 25%;
+  border: solid black;
+  border-radius: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: larger;
+  background-color: #e6e6fa;
+}
+
+.question {
+  font-size: 1rem;
+}
+
+.answers {
+  height: 100px;
+  width: 50px;
+  background-color: blue;
+}
+
+.intro {
+  display: flexbox;
+  justify-content: center;
+}
+.main-buttons {
+  width: 20%;
+}
+
+.btn {
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  border-radius: 30px;
+}
+.startbtn {
+  padding: 1%;
+  width: 100%;
+  background-color: #3fff00;
+}
+.startbtn:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.startbtn:hover {
+  background-color: #55dd33;
+}
+
+.intro p {
+  padding: 10px;
+}
+.btn-default {
+  background-color: black;
+  width: 70%;
+  color: antiquewhite;
+}
+.btn-default:hover {
+  background-color: cornflowerblue !important;
+}
+
+.next-button {
+  padding: 1%;
+  width: 15%;
+  background-color: #2a52be;
+  color: ghostwhite;
+}
