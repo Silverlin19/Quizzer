@@ -33,6 +33,9 @@ body {
   font-size: larger;
   background-color: #e6e6fa;
 }
+#introCard {
+  display: flex;
+}
 p {
   width: inherit;
 }

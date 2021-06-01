@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
     <script src="./JS/index.js" async ></script>
+    <script src="./JS/arrary.js"></script>
     <title>Quizzer</title>
 </head>
 
@@ -16,12 +17,12 @@
 <div id = "content "class="content">
   <main id = "intro" class="intro">
     
-    <div  class=" card">
+    <div  class=" instructions card" id="introCard">
  
 <h2 class="main-text">Coding Quizz Challenge</h2> 
 
 <p>Welcome to the coding quiz challenge Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, placeat asperiores voluptas iusto facere atque blanditiis ipsum explicabo inventore provident dicta eos nam amet reprehenderit repellat maiores? Distinctio, illum voluptatem!</p>
-<div class="main-buttons"> <button type="button" onclick='startBtn(); countDown()' id="start-btn" class="btn startbtn "> Start! </button> <br>
+<div class="main-buttons"> <button type="button" onclick='qLoad(); countDown()' id="start-btn" class="btn startbtn "> Start! </button> <br>
   <button type="button" class="btn btn-default"> Scores </button></div>
 </div>
 </main>
